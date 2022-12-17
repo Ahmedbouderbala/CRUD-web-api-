@@ -5,7 +5,7 @@ PART 2 : DYNAMIC SEARCH
 
         //public async Task<IEnumerable<Address>> SearchDynamic(List<Address> models, string query)
         //{
-        //    var searchResults = new List<MyModel>();
+        //    var searchResults = new List<Address>();
 
         //    // Get the properties of the MyModel type
         //    var properties = typeof(Address).GetProperties();
