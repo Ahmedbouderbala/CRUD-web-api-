@@ -3,7 +3,7 @@ with search and sort
 
 PART 2 : DYNAMIC SEARCH
 
-//public async Task<IEnumerable<Address>> SearchDynamic(List<Address> models, string query)
+        //public async Task<IEnumerable<Address>> SearchDynamic(List<Address> models, string query)
         //{
         //    var searchResults = new List<MyModel>();
 
@@ -39,7 +39,7 @@ PART 2 : DYNAMIC SEARCH
   
   PART 3 : DISTANCES 
 
-//[HttpGet]
+        //[HttpGet]
         //   public async Task<IActionResult> CalculateDistance(string address1, string address2)
         //{
         //    // Create a new distance matrix request
