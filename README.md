@@ -3,6 +3,10 @@ with search and sort
 
 PART 2 : DYNAMIC SEARCH
 
+        //This code uses reflection to get the properties of the MyModel type and loops through each property.If the property is a string type,
+        //it gets the value of the property for each object in the list and checks if the query is contained in any of the property values.
+        //If the query is found, it adds the object to the search results.
+
         //public async Task<IEnumerable<Address>> SearchDynamic(List<Address> models, string query)
         //{
         //    var searchResults = new List<Address>();
@@ -32,12 +36,20 @@ PART 2 : DYNAMIC SEARCH
         //}
 
 
-            //This code uses reflection to get the properties of the MyModel type and loops through each property.If the property is a string type,
-            //it gets the value of the property for each object in the list and checks if the query is contained in any of the property values.
-            //If the query is found, it adds the object to the search results.
+            
   
   
   PART 3 : DISTANCES 
+  
+        //create an endpoint that can retrieve the distance between two addresses using a public geolocation API in .NET Web API Core, you can follow these steps:
+
+        //- Choose a geolocation API that provides distance calculation functionality.There are several options available, such as the Google Maps API, the Mapbox API,            and the HERE API.Each of these APIs has its own set of pricing plans and usage limits, so be sure to choose the one that best fits your needs.
+
+        //- Register for an API key.In order to use the geolocation API, you will need to sign up for an API key.This is usually a simple process that involves                     creating an account and agreeing to the API's terms of service.
+
+        //- Install the API's client library. Most geolocation APIs provide client libraries that make it easier to interact with the API from your .NET Web API Core               application. For example, the Google Maps API provides a .NET client library that you can install using the NuGet package manager.
+
+        //- Create an endpoint in your.NET Web API Core application to calculate the distance between two addresses.This endpoint should accept two addresses as input,             and use the geolocation API's distance calculation functionality to retrieve the distance between them. Here's an example of what this endpoint might look             like using the Google Maps
 
         //[HttpGet]
         //   public async Task<IActionResult> CalculateDistance(string address1, string address2)
@@ -68,13 +80,5 @@ PART 2 : DYNAMIC SEARCH
 
         //----------------------------------------------------------------------------------
 
-        //create an endpoint that can retrieve the distance between two addresses using a public geolocation API in .NET Web API Core, you can follow these steps:
-
-        //- Choose a geolocation API that provides distance calculation functionality.There are several options available, such as the Google Maps API, the Mapbox API,            and the HERE API.Each of these APIs has its own set of pricing plans and usage limits, so be sure to choose the one that best fits your needs.
-
-        //- Register for an API key.In order to use the geolocation API, you will need to sign up for an API key.This is usually a simple process that involves                     creating an account and agreeing to the API's terms of service.
-
-        //- Install the API's client library. Most geolocation APIs provide client libraries that make it easier to interact with the API from your .NET Web API Core               application. For example, the Google Maps API provides a .NET client library that you can install using the NuGet package manager.
-
-        //- Create an endpoint in your.NET Web API Core application to calculate the distance between two addresses.This endpoint should accept two addresses as input,             and use the geolocation API's distance calculation functionality to retrieve the distance between them. Here's an example of what this endpoint might look             like using the Google Maps
+       
     }
